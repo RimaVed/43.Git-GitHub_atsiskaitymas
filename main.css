@@ -80,6 +80,12 @@ nav button:hover {
 
 
 @media (min-width: 768px) {
- 
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        margin-top: 30px;
+    }
 }
 
